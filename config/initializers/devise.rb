@@ -207,5 +207,7 @@ Devise.setup do |config|
   #   manager.intercept_401 = false
   #   manager.default_strategies(:scope => :user).unshift :some_external_strategy
   # end
-  config.omniauth :facebook, "234847626576442", "ee66abf077b6f5dd7da5081181b1dc27"
+  #config.omniauth :facebook, "234847626576442", "ee66abf077b6f5dd7da5081181b1dc27"
+
+  config.omniauth :facebook, '375314035819322', 'd53482dfced72ab30f6234eeb03008a7'    #Sportstest
 end
